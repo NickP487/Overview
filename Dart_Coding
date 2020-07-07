@@ -1,0 +1,11 @@
+main(){
+  String meinName = "Nick";
+  print("mein name ist $meinName");//Interpolation
+ 
+  double zahl = 7.7;
+  String kommazahl = zahl.toString();//Casting
+  print("die Nummer ist $kommazahl");//Interpolation
+  
+  int length = meinName.length;
+  print(length);
+}
